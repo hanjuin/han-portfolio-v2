@@ -52,7 +52,7 @@
                         "Applied SHAP to improve transparency and trust in AI-driven traffic management."],
         "tags" : ["Machine Learning", "Python", "LightGBM", "SHAP"],
         "images" : "/heatmap.png",
-        "url" : "https://github.com/hanjuin/traffic-prediction-lightgbm",
+        "url" : "https://github.com/hanjuin/xai-traffic-prediction",
         "paper" : "/Explainable_AI_in_Traffic_Prediction.pdf"
     }
 
