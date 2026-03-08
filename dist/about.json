@@ -1,0 +1,52 @@
+[
+    {"hero":"AI enthusiast and software engineer who enjoys solving meaningful problems through clean, effective code."},
+    {
+        "about": {
+            "paragraphs": [
+            {
+                "id": 1,
+                "text": "Software engineer and recent AUT Master of Computer and Information Sciences graduate focused on intelligent, real-world systems built with clean, efficient code.",
+                "links": []
+            },
+            {
+                "id": 2,
+                "text": "Experience includes machine learning, RAG, computer vision, time series forecasting, and full-stack web/mobile development. Built applications with React and React Native, including a barcode scanner app and a project that displays real-time bus schedules in my room using a public transport API.",
+                "links": [
+                {
+                    "label": "barcode scanner app",
+                    "url": "https://github.com/hanjuin/GroceryShoppingAssistant"
+                },
+                {
+                    "label": "real-time bus schedules",
+                    "url": "https://github.com/hanjuin/bus-schedule"
+                }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "During my AI internship at Goldenset, I worked on LLM and retrieval infrastructure, including CSV-to-RAG pipelines, token-aware chunking, embedding workflows, and multi-model integration across OpenAI and Anthropic.",
+                "links": []
+            },
+            {
+                "id": 4,
+                "text": "For my dissertation, I explored Explainable AI for traffic prediction with LSTM, XGBoost, and SHAP. I also built a traffic prediction model and a YOLO-based currency recognition model for New Zealand banknotes.",
+                "links": [
+                {
+                    "label": "traffic prediction model",
+                    "url": "https://github.com/hanjuin/traffic-prediction-lightgbm"
+                },
+                {
+                    "label": "YOLO-based currency recognition model",
+                    "url": "https://github.com/hanjuin/currency_recognition_yolo"
+                }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "Interested in practical AI systems that deliver measurable value through automation, decision support, and strong developer tooling.",
+                "links": []
+            }
+            ]
+        }
+    }
+]
