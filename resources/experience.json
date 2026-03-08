@@ -1,0 +1,14 @@
+[
+    {
+        "date" : "Nov 2025 - Feb 2026",
+        "title" : "AI Engineering Intern - Goldenset",
+        "description" : "Contributed to the Apollo AI service in the Titans monorepo. Improved CSV-to-RAG pipelines, token-based chunking, and multi-provider LLM integration (OpenAI, Anthropic, Gemini). Added tests and validation with PyTest, and supported code reviews, PR discussions, and production debugging.",
+        "tags" : ["Python", "OpenAI", "Gemini", "Anthropic", "AWS"]
+    },
+    {
+        "date" : "Feb 2016 - May 2016",
+        "title" : "IT Intern - DKSH Malaysia",
+        "description" : "Implemented a SharePoint and JavaScript electronic document signing system to reduce approval time and streamline review workflows. Collected and maintained technical documentation for configurations, workflows, and user guides to support IT operations and onboarding.",
+        "tags" : ["JavaScript", "SharePoint", "Teamwork"]
+    }
+]

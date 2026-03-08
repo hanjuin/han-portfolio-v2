@@ -1,0 +1,59 @@
+[
+    {
+        "title" : "Portfolio Website",
+        "description" : ["Built a personal portfolio website with React to showcase projects, skills, and experience.",
+                        "Implemented responsive design for consistent viewing across devices."],
+        "tags" : ["React", "Tailwind CSS", "JavaScript"],
+        "images" : "/portfolio.png",
+        "url" : "https://github.com/hanjuin/han-portfolio"
+    },
+    {
+        "title" : "Bus Timetable Display - AT HOP Real-Time Dashboard",
+        "description" : ["Built a real-time bus timetable display with Node.js and Express using the AT HOP API.",
+                        "Designed for fullscreen tablet use.",
+                        "Integrated weather forecasts via Weather API."],
+        "tags" : ["Node.js", "Express", "REST API", "AT HOP API","Weather API", "Tailwind CSS", "React", "Leaflet.js"],
+        "images" : "/busschedule.png",
+        "url" : "https://github.com/hanjuin/bus-schedule"
+    },
+    {
+        "title" : "Barcode Scanning Application with AI",
+        "description" : ["Built a React Native app to scan barcodes and return sustainability details like carbon footprint and recyclability.",
+                        "Integrated an AI model to analyze metadata and suggest eco-friendly alternatives.",
+                        "Implemented real-time scanning UI, product lookup APIs, and Android performance optimizations."],
+        "tags" : ["React Native", "MongoDB", "OpenAI API", "Android", "JavaScript"],
+        "images" : "/barcodescanner.png",
+        "url" : "https://github.com/hanjuin/GroceryShoppingAssistant"
+    },
+    {
+        "title" : "Assignment Management System",
+        "description" : ["Developed a web-based assignment platform using C# and ASP.NET MVC for lecturer-student workflows.",
+                        "Implemented assignment creation, submission tracking, deadline management, and progress monitoring.",
+                        "Added role-based access control for secure user access (student, lecturer)."],
+        "tags" : ["C#", "ASP.NET MVC", "SQL Server", "HTML", "Bootstrap"],
+        "images" : "/assignmentmanagementsystem.png",
+        "url" : "https://youtu.be/4a5yKT9BOzY"
+    },
+
+    {
+        "title" : "Currency Recognition Using Deep Learning",
+        "description" : ["Built a YOLO-based computer vision system to detect and recognize New Zealand dollar bills.",
+                        "Collected and labeled custom datasets and trained the model for denomination recognition.",
+                        "Implemented the pipeline in Python with PyTorch, OpenCV, and Ultralytics, outputting annotated video frames."],
+        "tags" : ["Python", "YOLO", "Ultralytics", "Vision Transformer", "OpenCV", "PyTorch"],
+        "images" : "/currencyrecognition.gif",
+        "url" : "https://github.com/hanjuin/currency_recognition_yolo",
+        "paper" : "/Currency_recognition_using_deep_learning.pdf"
+    },
+    {
+        "title" : "Explainable AI for Traffic Prediction",
+        "description" : ["Explored interpretability in traffic prediction using SHAP for policy-relevant insights in intelligent transportation systems.",
+                        "Built a machine learning model to predict traffic patterns and factor impacts on traffic flow.",
+                        "Applied SHAP to improve transparency and trust in AI-driven traffic management."],
+        "tags" : ["Machine Learning", "Python", "LightGBM", "SHAP"],
+        "images" : "",
+        "url" : "https://github.com/hanjuin/traffic-prediction-lightgbm",
+        "paper" : "/Explainable_AI_in_Traffic_Prediction.pdf"
+    }
+
+]

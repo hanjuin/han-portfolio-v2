@@ -1,0 +1,39 @@
+[
+    {
+        "name": "frontend",
+        "technologies": [
+            {"name": "React"},
+            {"name": "Tailwind CSS"},
+            {"name": "JavaScript"}
+        ]
+    },
+    {
+        "name": "backend",
+        "technologies": [
+            {"name": "Node.js"},
+            {"name": "FastAPI"}
+        ]
+    },
+    {
+        "name": "databases",
+        "technologies": [
+            {"name": "SQL Server"},
+            {"name": "Postgres"},
+            {"name": "MongoDB"}
+        ]
+    },
+    {
+        "name": "tools",
+        "technologies": [
+            {"name": "VS Code"},
+            {"name": "GitHub"},
+            {"name": "Claude"}
+        ]
+    },
+    {
+        "name": "M/Learning",
+        "technologies": [
+            {"name": "Python"}
+        ]
+    }
+]
