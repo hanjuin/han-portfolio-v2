@@ -81,7 +81,7 @@ export default function About() {
                 }}
               >
                 {[
-                  { label: 'Degree', value: "Master's — MHCIS", sub: 'AUT' },
+                  { label: 'Degree', value: "Master's — MCIS", sub: 'AUT' },
                   { label: 'Focus', value: 'AI & Full-Stack', sub: 'Engineering' },
                   { label: 'Location', value: 'Auckland', sub: 'New Zealand' },
                   { label: 'Status', value: 'Open to Work', sub: 'Full-time / Contract', accent: true },
