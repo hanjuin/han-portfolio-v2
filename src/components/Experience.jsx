@@ -81,7 +81,11 @@ export default function Experience() {
                       </span>
                     </div>
 
-                    <p className="text-slate-400 text-sm leading-[1.8] mb-5">{job.description}</p>
+                    <ul className="text-slate-400 text-sm leading-[1.8] mb-5 list-disc list-inside space-y-1">
+                      {job.description.map((point, j) => (
+                        <li key={j}>{point}</li>
+                      ))}
+                    </ul>
 
                     <div className="flex flex-wrap gap-2">
                       {job.tags.map((tag) => (

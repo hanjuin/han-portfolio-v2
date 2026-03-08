@@ -51,7 +51,7 @@
                         "Built a machine learning model to predict traffic patterns and factor impacts on traffic flow.",
                         "Applied SHAP to improve transparency and trust in AI-driven traffic management."],
         "tags" : ["Machine Learning", "Python", "LightGBM", "SHAP"],
-        "images" : "",
+        "images" : "/heatmap.png",
         "url" : "https://github.com/hanjuin/traffic-prediction-lightgbm",
         "paper" : "/Explainable_AI_in_Traffic_Prediction.pdf"
     }

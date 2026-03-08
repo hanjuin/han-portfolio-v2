@@ -23,7 +23,7 @@ export default function Footer() {
             Open to full-time roles and contract work in AI engineering, ML, and full-stack development.
           </p>
           <a
-            href="mailto:hanjuin@example.com"
+            href="mailto:hanjuin@live.com"
             className="btn-primary inline-flex items-center gap-2"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
