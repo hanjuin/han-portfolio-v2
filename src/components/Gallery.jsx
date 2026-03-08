@@ -47,8 +47,8 @@ export default function Gallery() {
                 className="relative overflow-hidden rounded-xl group cursor-zoom-in"
                 style={{
                   aspectRatio: '1 / 1',
-                  background: '#0D1322',
-                  border: '1px solid #1E293B',
+                  background: 'var(--bg-secondary)',
+                  border: '1px solid var(--border)',
                   opacity: visible ? 1 : 0,
                   transform: visible ? 'scale(1)' : 'scale(0.96)',
                   transition: `opacity 0.5s ease ${i * 80 + 200}ms, transform 0.5s ease ${i * 80 + 200}ms`,
@@ -77,7 +77,7 @@ export default function Gallery() {
       {active && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center p-4 md:p-8"
-          style={{ background: 'rgba(7,11,20,0.95)', backdropFilter: 'blur(8px)' }}
+          style={{ background: 'var(--lightbox-bg)', backdropFilter: 'blur(8px)' }}
           onClick={() => setActive(null)}
         >
           <button

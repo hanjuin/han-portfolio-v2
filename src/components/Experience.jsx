@@ -63,8 +63,8 @@ export default function Experience() {
                     <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-4">
                       <div>
                         <h3
-                          className="font-display font-bold text-white text-lg group-hover:text-accent transition-colors duration-200"
-                          style={{ letterSpacing: '-0.02em' }}
+                          className="font-display font-bold text-lg transition-colors duration-200"
+                          style={{ letterSpacing: '-0.02em', color: 'var(--text-primary)' }}
                         >
                           {job.title}
                         </h3>

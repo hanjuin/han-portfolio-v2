@@ -16,7 +16,7 @@ export default function Hero() {
           height: '600px',
           top: '-100px',
           left: '-150px',
-          background: 'radial-gradient(circle, rgba(45,212,191,0.12) 0%, transparent 70%)',
+          background: 'radial-gradient(circle, var(--glow-teal) 0%, transparent 70%)',
         }}
       />
       <div
@@ -26,7 +26,7 @@ export default function Hero() {
           height: '500px',
           bottom: '0',
           right: '-100px',
-          background: 'radial-gradient(circle, rgba(99,102,241,0.1) 0%, transparent 70%)',
+          background: 'radial-gradient(circle, var(--glow-indigo) 0%, transparent 70%)',
         }}
       />
 

@@ -91,7 +91,7 @@ export default function About() {
                     <div className="text-right">
                       <div
                         className="text-sm font-semibold font-display"
-                        style={{ color: accent ? '#2DD4BF' : '#F1F5F9', letterSpacing: '-0.01em' }}
+                        style={{ color: accent ? '#2DD4BF' : 'var(--text-primary)', letterSpacing: '-0.01em' }}
                       >
                         {value}
                       </div>
