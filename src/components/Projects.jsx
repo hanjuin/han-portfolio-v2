@@ -22,8 +22,8 @@ function ProjectCard({ project, index, visible }) {
         className="relative overflow-hidden"
         style={{
           height: '200px',
-          background: '#0D1322',
-          borderBottom: '1px solid #1E293B',
+          background: 'var(--bg-secondary)',
+          borderBottom: '1px solid var(--border)',
         }}
       >
         {imagePath ? (
@@ -53,8 +53,8 @@ function ProjectCard({ project, index, visible }) {
       {/* Content */}
       <div className="p-6 flex flex-col flex-1">
         <h3
-          className="font-display font-bold text-white text-lg mb-3 group-hover:text-accent transition-colors duration-200"
-          style={{ letterSpacing: '-0.02em' }}
+          className="font-display font-bold text-lg mb-3 transition-colors duration-200"
+          style={{ letterSpacing: '-0.02em', color: 'var(--text-primary)' }}
         >
           {project.title}
         </h3>

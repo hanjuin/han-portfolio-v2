@@ -85,8 +85,8 @@ export default function TechStack() {
                     {categoryIcons[category.name] || categoryIcons.tools}
                   </div>
                   <h3
-                    className="font-display font-semibold text-white text-sm"
-                    style={{ letterSpacing: '-0.01em' }}
+                    className="font-display font-semibold text-sm"
+                    style={{ letterSpacing: '-0.01em', color: 'var(--text-primary)' }}
                   >
                     {categoryLabels[category.name] || category.name}
                   </h3>
@@ -99,8 +99,8 @@ export default function TechStack() {
                       key={tech.name}
                       className="text-xs font-mono px-3 py-1.5 rounded-lg text-slate-300 transition-all duration-150 hover:text-white"
                       style={{
-                        background: 'rgba(255,255,255,0.04)',
-                        border: '1px solid rgba(255,255,255,0.08)',
+                        background: 'var(--tech-pill-bg)',
+                        border: '1px solid var(--tech-pill-border)',
                       }}
                       onMouseEnter={(e) => {
                         e.currentTarget.style.background = 'rgba(45,212,191,0.1)'
@@ -108,9 +108,9 @@ export default function TechStack() {
                         e.currentTarget.style.color = '#2DD4BF'
                       }}
                       onMouseLeave={(e) => {
-                        e.currentTarget.style.background = 'rgba(255,255,255,0.04)'
-                        e.currentTarget.style.borderColor = 'rgba(255,255,255,0.08)'
-                        e.currentTarget.style.color = '#CBD5E1'
+                        e.currentTarget.style.background = 'var(--tech-pill-bg)'
+                        e.currentTarget.style.borderColor = 'var(--tech-pill-border)'
+                        e.currentTarget.style.color = ''
                       }}
                     >
                       {tech.name}

@@ -5,10 +5,10 @@ export default {
     extend: {
       colors: {
         bg: {
-          primary: '#070B14',
-          secondary: '#0D1322',
-          card: '#111827',
-          elevated: '#162030',
+          primary: 'var(--bg-primary)',
+          secondary: 'var(--bg-secondary)',
+          card: 'var(--bg-card)',
+          elevated: 'var(--bg-elevated)',
         },
         accent: {
           DEFAULT: '#2DD4BF',
@@ -17,9 +17,9 @@ export default {
           glow: 'rgba(45,212,191,0.12)',
         },
         border: {
-          DEFAULT: '#1E293B',
-          subtle: '#0F172A',
-          bright: '#2D3F55',
+          DEFAULT: 'var(--border)',
+          subtle: 'var(--border-subtle)',
+          bright: 'var(--border-bright)',
         },
       },
       fontFamily: {

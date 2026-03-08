@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer
       className="py-16 md:py-20"
-      style={{ borderTop: '1px solid #1E293B' }}
+      style={{ borderTop: '1px solid var(--border)' }}
     >
       <div className="max-w-6xl mx-auto px-6">
         {/* Contact CTA */}
@@ -37,7 +37,7 @@ export default function Footer() {
         {/* Divider */}
         <div
           className="mb-10"
-          style={{ height: '1px', background: 'linear-gradient(to right, transparent, #1E293B, transparent)' }}
+          style={{ height: '1px', background: 'linear-gradient(to right, transparent, var(--border), transparent)' }}
         />
 
         {/* Bottom row */}
