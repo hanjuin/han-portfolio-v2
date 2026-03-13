@@ -23,6 +23,8 @@
   --glow-teal: rgba(45,212,191,0.12);
   --glow-indigo: rgba(99,102,241,0.1);
   --lightbox-bg: rgba(7,11,20,0.7);
+  --loading: #F1F5F9;
+  --border-chat: rgba(255, 255, 255, 0.08);
 }
 
 /* Light theme */
@@ -34,18 +36,21 @@ html.light {
   --border: #E2E8F0;
   --border-subtle: #F1F5F9;
   --border-bright: #94A3B8;
-  --text-primary: #F1F5F9;
+  --text-primary: #0F172A;
   --text-muted: #64748B;
   --navbar-bg: rgba(255,255,255,0.85);
   --navbar-mobile-bg: rgba(255,255,255,0.97);
-  /* --tech-pill-bg: rgba(0,0,0,0.04); */
-  /* --tech-pill-border: rgba(0,0,0,0.1); */
+  --tech-pill-bg: rgba(0,0,0,0.04);
+  --tech-pill-border: rgba(0,0,0,0.15);
   --btn-secondary-color: #0F172A;
   --btn-secondary-border: #94A3B8;
   --grid-line: rgba(100, 116, 139, 0.15);
   --glow-teal: rgba(45,212,191,0.08);
   --glow-indigo: rgba(99,102,241,0.06);
   --lightbox-bg: rgba(241,245,249,0.7);
+  --loading: #64748B;
+  --border-chat: #CBD5E1;
+  /* -loading: black; */
 }
 
 /* Light theme overrides */
@@ -192,6 +197,20 @@ html.light .card {
     linear-gradient(var(--grid-line) 1px, transparent 1px),
     linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
   background-size: 60px 60px;
+  position: relative
+}
+
+.hero-grid::after{
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 80%,
+    var(--bg-primary) 100%
+  );
+
+  pointer-events: none;
 }
 
 /* Glow blob */
@@ -200,4 +219,83 @@ html.light .card {
   border-radius: 50%;
   filter: blur(80px);
   pointer-events: none;
+}
+
+
+@keyframes rainbow-border {
+  0%   { border-color: #0EA5E9; }
+  25%  { border-color: #22D3EE; }
+  50%  { border-color: #2DD4BF; }
+  75%  { border-color: #5EEAD4; }
+  100% { border-color: #0EA5E9; }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.chat {
+  margin: 0 auto;
+  border-radius: 10px;
+  position: relative;
+  overflow: visible;
+  isolation: isolate;
+}
+
+.chat-inner {
+  background: var(--bg-card);
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.chat::after, .chat::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(from var(--angle), #0EA5E9, #2DD4BF, #5EEAD4, #006aff, #0EA5E9);
+  /* background-image: conic-gradient(from var(--angle), yellow, red, orange, pink, yellow); */
+  
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 3px;
+  box-sizing: content-box;
+  border-radius: 10px;
+  animation: 5s spin linear infinite;
+}
+
+.chat::before {
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+
+@keyframes spin {
+  from { --angle: 0deg; }
+  to   { --angle: 360deg; }
+}
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 20px;
+  aspect-ratio: 2;
+  --_g: no-repeat radial-gradient(circle closest-side, var(--loading),#0000);
+  background: 
+    var(--_g) 0%   50%,
+    var(--_g) 50%  50%,
+    var(--_g) 100% 50%;
+  background-size: calc(100%/3) 50%;
+  animation: l3 1s infinite linear;
+}
+@keyframes l3 {
+    20%{background-position:0%   0%, 50%  50%,100%  50%}
+    40%{background-position:0% 100%, 50%   0%,100%  50%}
+    60%{background-position:0%  50%, 50% 100%,100%   0%}
+    80%{background-position:0%  50%, 50%  50%,100% 100%}
 }
