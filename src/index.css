@@ -64,6 +64,8 @@ html.light .text-slate-500 { color: #64748B !important; }
 html.light .text-slate-600 { color: #475569 !important; }
 html.light .text-slate-700 { color: #334155 !important; }
 html.light .section-heading { color: #0F172A !important; }
+html.light .prose { color: #0F172A !important; }
+html.light .prose p, html.light .prose li, html.light .prose strong, html.light .prose code { color: #0F172A !important; }
 html.light .card {
   border-color: transparent !important;
   box-shadow:
