@@ -67,7 +67,7 @@ export default function Chatbot(){
     }
 
     return (
-        <section className="py-24 md:py-32">
+        <section id="chatbot" className="py-24 md:py-32">
             <div className="max-w-3xl mx-auto px-6">
                 <p className="section-label">Ask me anything</p>
                 <h2 className="section-heading mb-12">Chat with Han's AI</h2>
