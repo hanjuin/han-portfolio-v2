@@ -6,8 +6,6 @@ function ProjectCard({ project, index, visible }) {
     ? `/project${project.images}`
     : null
 
-  const isGif = imagePath?.endsWith('.gif')
-
   return (
     <div
       className="card flex flex-col h-full group hover:border-border-bright transition-all duration-300"
@@ -59,12 +57,9 @@ function ProjectCard({ project, index, visible }) {
           {project.title}
         </h3>
 
-        <ul className="space-y-1.5 mb-5 flex-1">
+        <ul className="text-slate-400 text-sm leading-[1.8] mb-5 flex-1 list-disc list-outside pl-4 space-y-1">
           {project.description.map((point, i) => (
-            <li key={i} className="flex items-start gap-2 text-sm text-slate-400 leading-[1.7]">
-              <span className="shrink-0 mt-1.5 w-1 h-1 rounded-full" style={{ background: '#2DD4BF' }} />
-              {point}
-            </li>
+            <li key={i}>{point}</li>
           ))}
         </ul>
 
@@ -88,6 +83,18 @@ function ProjectCard({ project, index, visible }) {
             </svg>
             {project.url.includes('youtu') ? 'Demo' : 'GitHub'}
           </a>
+
+          {project.internal_url && (
+            <a
+              href={project.internal_url}
+              className="flex items-center gap-1.5 text-xs font-mono text-slate-400 hover:text-white transition-colors duration-150"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
+              </svg>
+              {project.internal_label ?? 'Check it out'}
+            </a>
+          )}
 
           {project.paper && (
             <a

@@ -1,5 +1,17 @@
 [
     {
+        "title" : "Han's AI Chatbot",
+        "description" : ["A full-stack RAG platform built with FastAPI, featuring S3-backed document ingestion and a conversational chat interface.",
+                        "Documents are chunked with Markdown awareness, embedded using OpenAI text-embedding-3-small, and stored in PGVector for semantic search.",
+                        "Retrieval combines vector similarity with hybrid ranking via RRF and Cohere reranking for high-quality responses.",
+                        "Secured with JWT authentication and optimized with Redis caching for low-latency interactions."],
+        "tags" : ["FastAPI", "PostgreSQL", "Redis", "OpenAI", "COHERE", "AWS S3"],
+        "images" : "/rag.png",
+        "url" : "https://github.com/hanjuin/ai-platform",
+        "internal_url" : "#chatbot",
+        "internal_label" : "Check it out"
+    },
+    {
         "title" : "Bus Timetable Display - AT HOP Real-Time Dashboard",
         "description" : ["Built a real-time bus timetable display with Node.js and Express using the AT HOP API.",
                         "Designed for fullscreen tablet use.",
