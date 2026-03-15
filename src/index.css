@@ -41,7 +41,11 @@ html.light {
   --navbar-bg: rgba(255,255,255,0.85);
   --navbar-mobile-bg: rgba(255,255,255,0.97);
   --tech-pill-bg: rgba(0,0,0,0.04);
+<<<<<<< HEAD
   --tech-pill-border: rgba(0,0,0,0.15);
+=======
+  --tech-pill-border: rgba(0,0,0,0.1);
+>>>>>>> main
   --btn-secondary-color: #0F172A;
   --btn-secondary-border: #94A3B8;
   --grid-line: rgba(100, 116, 139, 0.15);
@@ -58,7 +62,7 @@ html.light,
 html.light body { background-color: #FFFFFF !important; color: #0F172A; }
 html.light .text-white { color: #0F172A !important; }
 html.light .text-slate-100 { color: #1E293B !important; }
-/* html.light .text-slate-300 { color: #334155 !important; } */
+html.light .text-slate-300 { color: #334155 !important; }
 html.light .text-slate-400 { color: #475569 !important; }
 html.light .text-slate-500 { color: #64748B !important; }
 html.light .text-slate-600 { color: #475569 !important; }
