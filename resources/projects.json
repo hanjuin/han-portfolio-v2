@@ -12,6 +12,17 @@
         "internal_label" : "Check it out"
     },
     {
+        "title": "Todolist Workflow",
+        "description": [
+            "An automated Discord task management bot built with n8n, allowing users to add, update, delete, and complete tasks through natural language messages.",
+            "User messages are classified using OpenAI and converted into structured commands, enabling intelligent interpretation of relative time expressions and task actions.",
+            "Tasks are persisted in PostgreSQL with full CRUD support, and each action triggers a formatted Discord reply with a live-updated task list.",
+            "Workflow is optimised with a single shared database query, dynamic field handling for nullable datetime values, and a sub-workflow for reusable task list formatting."
+        ],
+        "tags": ["n8n", "OpenAI", "PostgreSQL", "Discord"],
+        "images": "/n8n-todolist.png"
+    },
+    {
         "title" : "Bus Timetable Display - AT HOP Real-Time Dashboard",
         "description" : ["Built a real-time bus timetable display with Node.js and Express using the AT HOP API.",
                         "Designed for fullscreen tablet use.",
