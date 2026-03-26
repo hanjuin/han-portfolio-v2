@@ -95,7 +95,7 @@ export default function Navbar() {
             )}
           </button>
           <a
-            href="/pdf/Han_Juin_Wong_CV.pdf"
+            href="/resume/index.html"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary text-sm"
