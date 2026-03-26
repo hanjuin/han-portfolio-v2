@@ -1,0 +1,9 @@
+[
+    {"title": "AI Can Predict Traffic — But Can It Explain It?",
+    "date": "2026-03-25",
+    "summary": "A simple explanation of Explainable AI (XAI), why it matters for real-world systems, and how I applied it in traffic prediction using SHAP.",
+    "tags": ["AI","XAI","Traffic Prediction","Machine Learning"],
+    "slug": "explainable-ai-traffic-prediction"
+    }
+
+]

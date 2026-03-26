@@ -1,11 +1,26 @@
 [
     {
-        "title" : "Portfolio Website",
-        "description" : ["Built a personal portfolio website with React to showcase projects, skills, and experience.",
-                        "Implemented responsive design for consistent viewing across devices."],
-        "tags" : ["React", "Tailwind CSS", "JavaScript"],
-        "images" : "/portfolio.png",
-        "url" : "https://github.com/hanjuin/han-portfolio"
+        "title" : "Han's AI Chatbot",
+        "description" : ["A full-stack RAG platform built with FastAPI, featuring S3-backed document ingestion and a conversational chat interface.",
+                        "Documents are chunked with Markdown awareness, embedded using OpenAI text-embedding-3-small, and stored in PGVector for semantic search.",
+                        "Retrieval combines vector similarity with hybrid ranking via RRF and Cohere reranking for high-quality responses.",
+                        "Secured with JWT authentication and optimized with Redis caching for low-latency interactions."],
+        "tags" : ["FastAPI", "PostgreSQL", "Redis", "OpenAI", "COHERE", "AWS S3"],
+        "images" : "/rag.png",
+        "url" : "https://github.com/hanjuin/ai-platform",
+        "internal_url" : "#chatbot",
+        "internal_label" : "Check it out"
+    },
+    {
+        "title": "Todolist Workflow",
+        "description": [
+            "An automated Discord task management bot built with n8n, allowing users to add, update, delete, and complete tasks through natural language messages.",
+            "User messages are classified using OpenAI and converted into structured commands, enabling intelligent interpretation of relative time expressions and task actions.",
+            "Tasks are persisted in PostgreSQL with full CRUD support, and each action triggers a formatted Discord reply with a live-updated task list.",
+            "Workflow is optimised with a single shared database query, dynamic field handling for nullable datetime values, and a sub-workflow for reusable task list formatting."
+        ],
+        "tags": ["n8n", "OpenAI", "PostgreSQL", "Discord"],
+        "images": "/n8n-todolist.png"
     },
     {
         "title" : "Bus Timetable Display - AT HOP Real-Time Dashboard",
@@ -43,7 +58,7 @@
         "tags" : ["Python", "YOLO", "Ultralytics", "Vision Transformer", "OpenCV", "PyTorch"],
         "images" : "/currencyrecognition.gif",
         "url" : "https://github.com/hanjuin/currency_recognition_yolo",
-        "paper" : "/Currency_recognition_using_deep_learning.pdf"
+        "paper" : "/pdf/Currency_recognition_using_deep_learning.pdf"
     },
     {
         "title" : "Explainable AI for Traffic Prediction",
@@ -53,7 +68,7 @@
         "tags" : ["Machine Learning", "Python", "LightGBM", "SHAP"],
         "images" : "/heatmap.png",
         "url" : "https://github.com/hanjuin/xai-traffic-prediction",
-        "paper" : "/Explainable_AI_in_Traffic_Prediction.pdf"
+        "paper" : "/pdf/Explainable_AI_in_Traffic_Prediction.pdf"
     }
 
 ]
