@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 export function useTheme() {
-  const [light, setLight] = useState(false)
+  const [light, setLight] = useState(true)
 
   const toggleTheme = () => {
     const next = !light

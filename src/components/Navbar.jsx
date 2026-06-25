@@ -13,7 +13,7 @@ const links = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
-  const [light, setLight] = useState(false)
+  const [light, setLight] = useState(true)
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40)
