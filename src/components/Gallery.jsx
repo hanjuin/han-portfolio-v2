@@ -2,12 +2,12 @@ import { useState } from 'react'
 import { useInView } from '../hooks/useInView'
 
 const photos = [
+  { src: '/carousel/7.jpeg', alt: 'Claude Meetup' },
   { src: '/carousel/1.jpg', alt: 'Sandfield Office' },
   { src: '/carousel/2.jpg', alt: 'AUT Event' },
   { src: '/carousel/3.jpg', alt: 'Spark Alumni Panel' },
   { src: '/carousel/4.jpg', alt: 'Hamilton Show' },
   { src: '/carousel/5.jpg', alt: 'Murder of the Orient Express' },
-  { src: '/carousel/6.jpg', alt: 'Coldplay Concert' },
 ]
 
 export default function Gallery() {

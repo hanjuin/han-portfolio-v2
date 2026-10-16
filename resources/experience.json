@@ -1,7 +1,16 @@
 [
     {
+        "date" : "Apr 2026 - Present",
+        "title" : "AI Engineer - Flock Consulting",
+        "description" : ["Design, build, and evaluate AI and automation prototypes that improve how Flock operates internally.",
+                        "Build predictive models using Flock's own operational data to improve resourcing, project estimation, and delivery planning.",
+                        "Automate internal workflows to reduce manual effort across the practice.",
+                        "Use AI to accelerate internal documentation, proposal, and statement of work generation."],
+        "tags" : ["Python", "Anthropic", "n8n", "Azure", "Snowflake", "Productive", "streamlit"]
+    },
+    {
         "date" : "Nov 2025 - Feb 2026",
-        "title" : "AI Engineering Intern - Goldenset",
+        "title" : "AI Engineer Intern - Goldenset",
         "description" : ["Contributed to the Apollo AI service in the Titans monorepo.",
                         "Improved CSV-to-RAG pipelines, token-based chunking, and multi-provider LLM integration (OpenAI, Anthropic, Gemini).",
                         "Added tests and validation with PyTest, and supported code reviews, PR discussions, and production debugging."],
