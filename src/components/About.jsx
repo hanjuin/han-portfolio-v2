@@ -84,7 +84,7 @@ export default function About() {
                   { label: 'Degree', value: "Master's — MCIS", sub: 'AUT' },
                   { label: 'Focus', value: 'AI & Full-Stack', sub: 'Engineering' },
                   { label: 'Location', value: 'Auckland', sub: 'New Zealand' },
-                  { label: 'Status', value: 'Open to Work', sub: 'Full-time / Contract', accent: true },
+                  { label: 'Status', value: 'Employed', sub: 'Open to contract & new roles', accent: true },
                 ].map(({ label, value, sub, accent }) => (
                   <div key={label} className="flex items-start justify-between gap-4">
                     <span className="text-xs font-mono text-slate-600 uppercase tracking-wider pt-1">{label}</span>

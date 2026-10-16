@@ -5,7 +5,7 @@
             "paragraphs": [
             {
                 "id": 1,
-                "text": "Software engineer and recent AUT Master of Computer and Information Sciences graduate focused on intelligent, real-world systems built with clean, efficient code.",
+                "text": "AI Engineer with a Master of Computer and Information Sciences from AUT, focused on intelligent, real-world systems built with clean, efficient code.",
                 "links": []
             },
             {
@@ -29,6 +29,16 @@
             },
             {
                 "id": 4,
+                "text": "Since April 2026, I have been an AI Engineer at Flock Consulting, a Dunedin-based data and AI consultancy, working remotely from Auckland. I build internal AI and automation tools end to end, including flock-bot, a Claude-powered Microsoft Teams bot over Flock's knowledge repository, and an AI Estimation Engine on Snowflake that predicts pre-sales delivery hours from past projects.",
+                "links": [
+                {
+                    "label": "Flock Consulting",
+                    "url": "https://www.flockconsulting.co.nz"
+                }
+                ]
+            },
+            {
+                "id": 5,
                 "text": "For my dissertation, I explored Explainable AI for traffic prediction with LSTM, XGBoost, and SHAP. I also built a traffic prediction model and a YOLO-based currency recognition model for New Zealand banknotes.",
                 "links": [
                 {
@@ -42,7 +52,7 @@
                 ]
             },
             {
-                "id": 5,
+                "id": 6,
                 "text": "Interested in practical AI systems that deliver measurable value through automation, decision support, and strong developer tooling.",
                 "links": []
             }
